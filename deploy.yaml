@@ -1,0 +1,21 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sg-demo
+  namespace: default
+spec:
+  replicas: 300 ## Num Of Replicas >= Numbe of Partitions
+  selector:
+    matchLabels:
+      app: bblworker
+  template:
+    metadata:
+      labels:
+        app: bblworker
+    spec:
+      containers:
+        - name: worker
+          image: 414640939627.dkr.ecr.us-east-1.amazonaws.com/sg-demos:latest
+         
+         
