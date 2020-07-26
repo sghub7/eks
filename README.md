@@ -15,6 +15,6 @@ Python Parallel Compute on AWS-EKS
 ![Docker Image](https://github.com/sghub7/eks/blob/master/workerdeploy.PNG?raw=true)
 
 ## 4. Kubectl 
-![Docker Image](https://github.com/sghub7/eks/blob/master/kubectl.PNG?raw=true)
+![Docker Image](https://github.com/sghub7/eks/blob/master/kubeCtl.PNG?raw=true)
 
 
